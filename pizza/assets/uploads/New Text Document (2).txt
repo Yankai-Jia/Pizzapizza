@@ -1,0 +1,64 @@
+SAP
+intuit
+Accenture
+gusto
+facebook(intern)
+classpass(no reponse to hr reject)
+coursera(OA reject)
+altschool(no open reject)
+color(reject)
+landing home(reject)
+Narvar(reject)
+verizon (reject)
+cener(reject)
+Ancestry(reject)
+Airtable(reject)
+
+/FileStore/tables/stopword.txt
+
+
+raina
+5a:6f:4a:d9:4f:f7:60:40:45:2b:20:36:04:e1:28:dc:d2:b1:52:1c
+
+--class "Movieplot"
+s3://utdying/sparkwordcount_2.11-0.1.jar
+
+s3://utdying/plot_summaries.txt
+s3://utdying/stopword.txt
+Chihuahua
+s3://utdying/movie.metadata.tsv
+
+
+--class "PageRank"
+s3://utdying/sparkwordcount_2.11-0.1.jar
+
+s3://utdying/airport.csv
+10
+s3://utdying/airpot_output.txt
+
+
+
+
+import org.apache.spark.{SparkConf, SparkContext}
+
+object WordCount {
+  def main(args: Array[String]): Unit = {
+
+    if (args.length != 2) {
+      println("Usage: WordCount InputDir OutputDir")
+    }
+    // create Spark context with Spark configuration
+    val sc = new SparkContext(new SparkConf().setAppName("Spark Count"))
+
+    // read in text file and split each document into words
+    val tokenized = sc.textFile(args(0)).flatMap(_.split(" "))
+
+    // count the occurrence of each word
+    val wordCounts = tokenized.map((_, 1)).reduceByKey(_ + _)
+
+    val sorted = wordCounts.sortBy(-_._2)
+
+    sorted.saveAsTextFile(args(1))
+  }
+
+}

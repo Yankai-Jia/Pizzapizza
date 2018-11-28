@@ -1,0 +1,57 @@
+show{
+    width: 100%;
+}
+.header{
+    background-color: #333333;
+}
+.header .nav-link{
+    color: #eeeeee;
+}
+
+.container{
+    margin-top: 20px;
+
+}
+.container .col-6{
+    width: 1000px;
+}
+.footer{
+    height: 50px;
+    background-color: #333333;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 20px;
+}
+.footer p{
+    color: #eeeeee;
+}
+.login {
+    float: right;
+}
+.btn{
+    display: block;
+}
+.col-6{
+    margin: 0 20px;
+}
+#profile{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+}
+#Home{
+    height: 150px;
+}
+#page{
+    margin-left: 700px;
+}
+
+.alg{
+    margin-left: 100px;
+}
+
+#InsertBtn{
+    float: left;
+    margin-top : 10px;
+}
