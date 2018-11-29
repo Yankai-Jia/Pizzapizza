@@ -293,7 +293,7 @@ body {
     text-align: center;
 
     opacity: 0;
-    background: #c0c0c0;
+    background: #ffffff;
 
     font-size: 2em;
 }
@@ -326,7 +326,7 @@ body {
 
 .login .login-wrap {
     position: relative;
-
+    top: -100px;
     max-width: 380px;
     margin: 180px auto;
     padding: 100px 40px 40px;
@@ -337,16 +337,16 @@ body {
 
 .login .login-wrap .avatar {
     position: absolute;
-    top: -60px;
     left: 50%;
 
     overflow: hidden;
 
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     margin-left: -70px;
 
     border: 10px solid #fff;
     border-radius: 50%;
     box-shadow: 0 1px 5px #ccc;
 }
+

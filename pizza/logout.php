@@ -9,4 +9,4 @@ session_start();
 unset($_SESSION['current_login_user']);
 
 // 跳转
-header('Location: login.php');
+header('Location: index.php');

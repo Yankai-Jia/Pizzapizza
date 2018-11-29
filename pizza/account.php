@@ -38,9 +38,9 @@ $cart_dish = getDishByUserId($id);
     <div class="py-5 text-center">
         <p>
             <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-        <p>Address</p>
+                <p>Address</p>
 
-        </a>
+            </a>
         </p>
 
         <div class="collapse" id="collapseExample">
@@ -57,9 +57,9 @@ $cart_dish = getDishByUserId($id);
 
         <p>
             <a data-toggle="collapse" href="#colorder" aria-expanded="false" aria-controls="collapseExample">
-        <p>View my cart</p>
+                <p>View my cart</p>
 
-        </a>
+            </a>
         </p>
 
         <div class="collapse" id="colorder">
@@ -91,6 +91,9 @@ $cart_dish = getDishByUserId($id);
                     <?php endif; ?>
                 </div>
             </div>
+        </div>
+        <div>
+            <a href="logout.php">Log Out</a>
         </div>
 
     </div>

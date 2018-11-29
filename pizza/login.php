@@ -14,8 +14,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   } else {
 
     $email = $_POST['email'];
-    $password = $_POST['password'];
-
+    $password = md5($_POST['password']);
+//    echo md5($_POST['password']);
 
     $connection = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
@@ -67,11 +67,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <div class="login">
     <form class="login-wrap" action="login.php" method="post">
       <img class="avatar" src="assets/img/default.png">
-      <?php if (isset($message)) : ?>
-      <div class="alert alert-danger">
-        <strong>wrong！</strong><?php echo $message; ?>
-      </div>
-      <?php endif; ?>
+<!--      --><?php //if (isset($message)) : ?>
+<!--      <div class="alert alert-danger">-->
+<!--        <strong>wrong！</strong>--><?php //echo $message; ?>
+<!--      </div>-->
+<!--      --><?php //endif; ?>
       <div class="form-group">
         <label for="email" class="sr-only">email</label>
         <input id="email" name="email" type="email" class="form-control" value="<?php echo isset($_POST['email']) ? $_POST['email'] : ''; ?>" placeholder="email" autofocus>
