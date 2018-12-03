@@ -8,6 +8,9 @@ require 'static/user.php';
 session_start();
 
 $current_user = user();
+//if ($current_user=0){
+//    $user_id=0;
+//}
 $user_id = $current_user['user_id'];
 
 

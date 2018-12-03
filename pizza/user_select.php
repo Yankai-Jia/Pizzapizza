@@ -34,22 +34,22 @@ if (isset($_GET['data'])){
 
 
     if ($data != '' && $category !=''){
-        $sql = "SELECT * FROM dish WHERE NAME LIKE '%$data%' and category = '$category'";
+        $sql = "SELECT * FROM dish WHERE NAME LIKE '%$data%' and category = '$category' and type = 0";
 //        echo $sql;
     }
 
 //        $sql = "SELECT * FROM dish WHERE NAME LIKE '%$data%'";
     else if ($data == '' && $category != ''){
-        $sql = sprintf("SELECT * FROM dish WHERE category = '%s'", $category);
+        $sql = sprintf("SELECT * FROM dish WHERE category = '%s' and type = 0", $category);
 //        echo $sql;
     }
     else if ($data != '' && $category == ''){
-        $sql = "SELECT * FROM dish WHERE NAME LIKE '%$data%'";
+        $sql = "SELECT * FROM dish WHERE NAME LIKE '%$data%' and type = 0";
 //        echo $sql;
     }
 
     else
-        $sql = "SELECT * FROM dish ";
+        $sql = "SELECT * FROM dish where type = 0";
 
     $result = mysqli_query($con,$sql);
     if (!$result){

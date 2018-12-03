@@ -42,6 +42,10 @@ $list_all_dish=xiu_query(sprintf('SELECT *
                                          FROM dish
                                           WHERE %s and type = 0
                                           LIMIT %d,%d', $where,($page-1)*$size, $size));
+//echo 'SELECT *
+//                                         FROM dish
+//                                          WHERE %s and type = 0
+//                                          LIMIT %d,%d', $where,($page-1)*$size, $size;
 
 
 ?>
@@ -74,7 +78,7 @@ $list_all_dish=xiu_query(sprintf('SELECT *
     </style>
 </head>
 
-<body>
+<body style="background-color: #f7e1b5">
 <!--<div class="show">-->
 
 
@@ -150,7 +154,8 @@ $list_all_dish=xiu_query(sprintf('SELECT *
 <!--footer-->
 <div>
     <div class="footer">
-        <p> welcome back!</p>
+        <p> Pizzapizza by Ying Zhou, Yankai Jia, Yisu Tian</p>
+
     </div>
 </div>
 <script src="assets/jquery.js"></script>
@@ -203,6 +208,7 @@ $list_all_dish=xiu_query(sprintf('SELECT *
                                 "<p class='f16 line1'>"+data['name']+"</p>"+
                                 "<dl class='line3'>"+
                                 "<dd class='c2 red'><span class='rmb'>"+data['price']+"</span></dd>"+
+                                "<dd class='c2 red'><small id='num'>"+data['inventory']+"</small><small>left</small></dd>"+
                                 "<dd class='c3 f16'>add to cart</dd>"+
                                 "</dl>"+
                                 "</a>"+
@@ -254,7 +260,9 @@ $list_all_dish=xiu_query(sprintf('SELECT *
                                     "<p class='f16 line1'>"+data['name']+"</p>"+
                                     "<dl class='line3'>"+
                                     "<dd class='c2 red'><span class='rmb'>"+data['price']+"</span></dd>"+
-                                    "<dd class='c3 f16'>add to cart</dd>"+
+                                    "<dd class='c2 red'><small id='num'>"+data['inventory']+"</small><small>left</small></dd>"+
+
+                            "<dd class='c3 f16'>add to cart</dd>"+
                                     "</dl>"+
                                     "</a>"+
                                "</div>"

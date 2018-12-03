@@ -9,7 +9,8 @@
 function user(){
     if (empty($_SESSION['current_login_user'])){
 //        header('Location:login.php');
-        echo 'sdf';
+//        echo 'sdf';
+//        return 0;
     }
     return $_SESSION['current_login_user'];
 }

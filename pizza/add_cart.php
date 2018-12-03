@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 //    else{
 
         $qty = (int)$_POST['qty'];
-        $fla = (int)$_POST['fla'];
+        $fla = $_POST['fla'];
         $dish_id = (int)$_GET['dish_id'];
         $user_id = (int) $id;
         echo var_dump($qty);
@@ -39,8 +39,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $user_id,
             $dish_id,
             $qty,
-            $fla,
-            'sdf'
+            'sdf',
+            $fla
+
         );
 
         $affect_row = execute($sql);

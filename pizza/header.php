@@ -12,7 +12,7 @@ $current_user['username'];
 <link rel="stylesheet" href="assets/bootstrap.css">
 <!--<link rel="stylesheet" href="css/index.css">-->
 <div class="show">
-    <div class="header">
+    <div class="header" >
         <div class="row">
             <div class="col-8 dropdown">
                 <nav class="nav nav-pills nav-justified">
