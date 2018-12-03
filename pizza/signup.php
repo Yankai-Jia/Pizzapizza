@@ -114,7 +114,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
 
         <div class="form-group col-sm-6">
-            <input type="text" class="form-control" name='ConfirmPassword' id="ConfirmPassword" placeholder="Confirm Password">
+            <input type="password" class="form-control" name='ConfirmPassword' id="ConfirmPassword" placeholder="Confirm Password">
             <p></p>
         </div>
 
