@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00f6765f-0398-497b-b50e-24c46a2df680" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pizza/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza/account.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/account.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizza/add_cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/add_cart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/cart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizza/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizza/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza/order.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/signup.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizza/static/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/static/user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizza/t.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/t.php" afterDir="false" />
     </list>
@@ -31,38 +35,38 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="10" />
-          <entry key="html" value="1" />
-          <entry key="js" value="3" />
-          <entry key="php" value="107" />
+          <entry key="css" value="11" />
+          <entry key="html" value="2" />
+          <entry key="js" value="4" />
+          <entry key="php" value="135" />
           <entry key="png" value="2" />
           <entry key="sql" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="10" />
-          <entry key="HTML" value="1" />
+          <entry key="CSS" value="11" />
+          <entry key="HTML" value="2" />
           <entry key="Image" value="2" />
-          <entry key="JavaScript" value="3" />
-          <entry key="PHP" value="107" />
+          <entry key="JavaScript" value="4" />
+          <entry key="PHP" value="135" />
           <entry key="SQL" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="93" />
-          <entry key="html" value="114" />
+          <entry key="css" value="117" />
+          <entry key="html" value="209" />
           <entry key="js" value="423" />
-          <entry key="php" value="1186" />
+          <entry key="php" value="1356" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="93" />
-          <entry key="HTML" value="115" />
+          <entry key="CSS" value="117" />
+          <entry key="HTML" value="210" />
           <entry key="JavaScript" value="423" />
-          <entry key="PHP" value="1185" />
+          <entry key="PHP" value="1355" />
         </counts>
       </usages-collector>
     </session>
@@ -70,37 +74,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pizza/login.php">
+        <entry file="file://$PROJECT_DIR$/pizza/signup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="38" column="49" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="49" />
+            <state relative-caret-position="84">
+              <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+              <folding>
+                <element signature="e#6#93#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pizza/static/user.php">
+        <entry file="file://$PROJECT_DIR$/pizza/signup_check.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pizza/add_cart.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="54" column="3" lean-forward="true" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="7" />
+            <state relative-caret-position="363">
+              <caret line="47" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pizza/t.php">
+        <entry file="file://$PROJECT_DIR$/pizza/cart_update.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="227">
+              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -108,17 +115,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pizza/cart_add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="68" column="6" lean-forward="true" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
+            <state relative-caret-position="-189">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pizza/pizzapizza_sql.sql">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pizza/order.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="279" selection-end-column="71" />
+            <state relative-caret-position="239">
+              <caret line="66" selection-start-line="66" selection-end-line="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pizza/t.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="79" column="40" lean-forward="true" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -145,22 +161,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pizza/css/admin.css" />
         <option value="$PROJECT_DIR$/pizza/logout.php" />
-        <option value="$PROJECT_DIR$/pizza/account.php" />
         <option value="$PROJECT_DIR$/pizza/static/1.js" />
         <option value="$PROJECT_DIR$/pizza/login.php" />
-        <option value="$PROJECT_DIR$/pizza/signup.php" />
         <option value="$PROJECT_DIR$/pizza/checkout.php" />
         <option value="$PROJECT_DIR$/pizza/signup_check.js" />
         <option value="$PROJECT_DIR$/pizza/pizzapizza_sql.sql" />
-        <option value="$PROJECT_DIR$/pizza/about.html" />
         <option value="$PROJECT_DIR$/pizza/css/index.css" />
-        <option value="$PROJECT_DIR$/pizza/index.php" />
-        <option value="$PROJECT_DIR$/pizza/header.php" />
         <option value="$PROJECT_DIR$/pizza/t.php" />
-        <option value="$PROJECT_DIR$/pizza/add_cart.php" />
         <option value="$PROJECT_DIR$/pizza/static/user.php" />
+        <option value="$PROJECT_DIR$/pizza/css/admin.css" />
+        <option value="$PROJECT_DIR$/pizza/index.php" />
+        <option value="$PROJECT_DIR$/pizza/about.html" />
+        <option value="$PROJECT_DIR$/pizza/account.php" />
+        <option value="$PROJECT_DIR$/pizza/signup.php" />
+        <option value="$PROJECT_DIR$/pizza/header.php" />
+        <option value="$PROJECT_DIR$/pizza/order.php" />
+        <option value="$PROJECT_DIR$/pizza/cart.php" />
+        <option value="$PROJECT_DIR$/pizza/add_cart.php" />
       </list>
     </option>
   </component>
@@ -175,7 +193,7 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="92" />
+    <option name="y" value="188" />
     <option name="width" value="1280" />
     <option name="height" value="741" />
   </component>
@@ -195,12 +213,6 @@
               <item name="Pizzapizza" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pizzapizza" type="462c0819:PsiDirectoryNode" />
               <item name="pizza" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pizzapizza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pizzapizza" type="462c0819:PsiDirectoryNode" />
-              <item name="pizza" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -248,15 +260,15 @@
       <workItem from="1543388878129" duration="945000" />
       <workItem from="1543434275505" duration="19728000" />
       <workItem from="1543800088896" duration="6794000" />
-      <workItem from="1543812853300" duration="9285000" />
+      <workItem from="1543812853300" duration="17854000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38078000" />
+    <option name="totallyTimeSpent" value="46647000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="92" width="1280" height="741" extended-state="0" />
+    <frame x="0" y="188" width="1280" height="741" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19951534" />
@@ -279,6 +291,27 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19951534" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -290,18 +323,8 @@
     <entry file="file://$PROJECT_DIR$/pizza/cart_delete.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/cart_update.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pizza/dish_delete.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pizza/wish_delete.php">
       <provider selected="true" editor-type-id="text-editor" />
@@ -344,54 +367,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/signup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="22" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
-          <folding>
-            <element signature="e#6#93#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pizza/assets/img/cart.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/css/admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/signup_check.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pizza/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="65" column="7" lean-forward="true" selection-start-line="65" selection-start-column="7" selection-end-line="67" selection-end-column="11" />
-          <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -407,16 +389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pizza/static/common.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2100">
@@ -428,32 +400,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/account.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="94" column="13" lean-forward="true" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/addnew.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="3" selection-start-line="1" selection-end-line="1" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pizza/all_order.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/cart.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/checkout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="91" column="51" selection-start-line="91" selection-start-column="51" selection-end-line="91" selection-end-column="51" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pizza/control.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -465,13 +413,6 @@
     <entry file="file://$PROJECT_DIR$/pizza/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2143" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/k.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pizza/upload.php">
@@ -493,45 +434,155 @@
     <entry file="file://$PROJECT_DIR$/pizza/config.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/login.php">
+    <entry file="file://$PROJECT_DIR$/pizza/pizzapizza_sql.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="38" column="49" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="49" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/add_cart.php">
+    <entry file="file://$PROJECT_DIR$/pizza/addnew.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="54" column="3" lean-forward="true" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="7" />
+        <state relative-caret-position="15">
+          <caret line="1" column="3" selection-start-line="1" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizza/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pizza/static/user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="19" />
+          <caret line="12" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizza/css/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="350" column="1" selection-start-line="350" selection-start-column="1" selection-end-line="350" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizza/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="108" column="63" selection-start-line="108" selection-start-column="63" selection-end-line="108" selection-end-column="63" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizza/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizza/checkout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="39" />
+          <folding>
+            <element signature="e#6#93#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizza/account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizza/signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+          <folding>
+            <element signature="e#6#93#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizza/signup_check.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizza/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="36" column="109" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="109" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizza/cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pizza/t.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="390">
+          <caret line="79" column="40" lean-forward="true" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizza/k.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="843">
+          <caret line="74" column="7" lean-forward="true" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizza/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="66" selection-start-line="66" selection-end-line="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pizza/cart_add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="6" lean-forward="true" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
+        <state relative-caret-position="-189">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/pizzapizza_sql.sql">
+    <entry file="file://$PROJECT_DIR$/pizza/cart_update.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="279" selection-end-column="71" />
+        <state relative-caret-position="227">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizza/add_cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="47" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="24" />
         </state>
       </provider>
     </entry>

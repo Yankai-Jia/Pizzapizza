@@ -12,7 +12,6 @@ require 'static/user.php';
 
 session_start();
 $current_user = user();
-//$id = $current_user['user_id'];
 
 $where = '1 = 1';
 $search='';
@@ -107,8 +106,8 @@ $list_all_dish=xiu_query(sprintf('SELECT *
                             <li class="list-group-item">drinks</li>
                         </ul>
                         <br>
-                        <button class="btn btn-primary" id ="filter">filter</button>
-                        <button class="btn btn-primary" id ="clear">clear</button>
+                        <button class="btn btn-secondary btn-sm" id ="filter">filter</button>
+                        <button class="btn btn-secondary btn-sm" id ="clear">clear</button>
                     </div>
 
 

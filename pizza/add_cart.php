@@ -13,9 +13,9 @@ require 'static/user.php';
 session_start();
 
 $current_user = user();
-if ($current_user=0){
-    $user_id=0;
-}
+//if ($current_user=0){
+//    header('Location:login.php');
+//}
 $id = $current_user['user_id'];
 
 echo "iouoiuo";
@@ -45,6 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         $affect_row = execute($sql);
         if($affect_row >0) {
+//            echo $sql;
             echo $affect_row;
             header('Location: index.php');
         }

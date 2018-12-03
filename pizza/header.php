@@ -32,8 +32,7 @@ $current_user['username'];
             <div class="col-4">
                 <div class="login">
                     <nav class="nav nav-pills nav-justified">
-                        <?php
-                        if (isset($current_user)): ?>
+                        <?php if(isset($current_user)):?>
                             <p>"&nbsp"</p>
                             <a class="nav-link" href="account.php"><?php echo $current_user['username']?></a>
                             <p>"&nbsp"</p>
@@ -49,11 +48,13 @@ $current_user['username'];
                                 <img src="assets/img/wish_list.png" width="35" height="35"  class="d-inline-block">
                             </a>
                             <p>"&nbsp"</p>
-
-
+<!--                        --><?php //if(!isset($current_user) || $current_user=0):?>
+<!--                            <a class="nav-link" href="login.php">Login</a>-->
+<!--                            <a class="nav-link" href="signup.php">Sign Up</a>-->
+<!--                        --><?php //endif;?>
                         <?php else:?>
-                            <a class="nav-link" href="login.php">Login</a>
-                            <a class="nav-link" href="signup.php">Sign Up</a>
+                        <a class="nav-link" href="login.php">Login</a>
+                        <a class="nav-link" href="signup.php">Sign Up</a>
                         <?php endif;?>
 
 

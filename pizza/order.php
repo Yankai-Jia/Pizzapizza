@@ -43,7 +43,7 @@ $cart_dish = getDishByUserId($id);
 <div class="container">
     <div class="py-5 text-center">
         <img class="d-block mx-auto mb-4" src="../../assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-        <h2>Check Out</h2>
+        <h2>Shopping Cart</h2>
                         <h4 class="d-flex justify-content-between align-items-center mb-3">
                             <span class="text-muted">Your cart</span>
                             <span class="badge badge-secondary badge-pill"><?php echo count($cart_dish) ?></span>
@@ -59,15 +59,15 @@ $cart_dish = getDishByUserId($id);
 
                 <tr>
                     <td>quantity</td>
-                    <td><span class="badge badge-pill badge-warning"><?php echo $dish['dish_qty'] ?></span></td>
+                    <td><span class="badge badge-pill badge-dark"><?php echo $dish['dish_qty'] ?></span></td>
                 </tr>
                 <tr>
                     <td>favor</td>
-                    <td><span class="badge badge-dark"><?php echo $dish['flavor'] ?></span></td>
+                    <td><span class="badge badge-pill badge-dark"><?php echo $dish['flavor'] ?></span></td>
                 </tr>
                 <tr>
                     <td>price</td>
-                    <td><span class="badge  badge-primary"><?php echo $dish['price'] * $dish['dish_qty']; ?></span></td>
+                    <td><span class="badge badge-pill badge-dark"><?php echo $dish['price'] * $dish['dish_qty']; ?></span></td>
                 </tr>
                 <tr>
                     <td><a href="k.php?dish_id=<?php echo $dish['id']; ?>">update</a></td>
