@@ -97,7 +97,7 @@ $list_all_dish=xiu_query(sprintf('SELECT *
                             <li class="list-group-item">veggie</li>
                             <li class="list-group-item">sides</li>
                             <li class="list-group-item">pasta</li>
-                            <li class="list-group-item">dasserts</li>
+                            <li class="list-group-item">desserts</li>
                             <li class="list-group-item">drinks</li>
                         </ul>
                         <br>
