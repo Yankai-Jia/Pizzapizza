@@ -63,8 +63,11 @@ $list_all_dish=xiu_query(sprintf('SELECT *
     <link rel="stylesheet" href="css/dish.css">
     <title>Personal page</title>
     <style>
-        #sides{
-            margin-right: 87px;
+        /*#sides{*/
+            /*margin-top: 50px;*/
+        /*}*/
+        #searchInput{
+            margin-top: 40px;
         }
         li:hover{
            cursor : pointer;
@@ -85,13 +88,16 @@ $list_all_dish=xiu_query(sprintf('SELECT *
                 <div class="row">
                     <div class="col-2">
 
-                        <div id="searchForm">
-
-                                <input id="searchInput" class="form-control" type="search" placeholder="Search..." aria-label="Search">
-
+<!--                        <div id="searchForm">-->
+<!---->
+<!--                                <input id="searchInput" class="form-control" type="search" placeholder="Search..." aria-label="Search">-->
+<!---->
+<!--                        </div>-->
+                        <div class="md-form mt-0">
+                            <input id="searchInput" class="form-control" type="text" placeholder="Search" aria-label="Search">
                         </div>
                         <br>
-                        <ul class="list-group list-group-flush" id="sides">
+                        <ul class="list-group " id="sides">
                             <li class="list-group-item ">meat</li>
                             <li class="list-group-item">chicken</li>
                             <li class="list-group-item">veggie</li>
@@ -107,12 +113,6 @@ $list_all_dish=xiu_query(sprintf('SELECT *
 
 
                     <div class="col-10">
-                        <nav aria-label="Page navigation example" id="page">
-                            <ul class="pagination">
-                                <?php pagination($page, $max_page, '?page=%d' . $search); ?>
-                            </ul>
-                        </nav>
-
                         <br>
                         <br>
 
@@ -132,8 +132,13 @@ $list_all_dish=xiu_query(sprintf('SELECT *
                                 </a>
                             </div>
                         <?php } ?>
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination justify-content-end">
+                                    <?php pagination($page, $max_page, '?page=%d' . $search); ?>
+                                </ul>
+                            </nav>
 
-                    </div>
+                        </div>
                         
                     </div>
                 </div>

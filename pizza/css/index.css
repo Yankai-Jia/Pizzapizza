@@ -34,6 +34,11 @@ show{
 .col-6{
     margin: 0 20px;
 }
+
+#searchInput{
+    margin-top: 40px;
+}
+
 #profile{
     float: left;
     width: 100px;
@@ -54,4 +59,7 @@ show{
 #InsertBtn{
     float: left;
     margin-top : 10px;
+}
+#sides{
+    margin-right: 0px;
 }
