@@ -53,7 +53,7 @@ $tip = 3;
                 <span class="badge badge-secondary badge-pill"><?php echo count($cart_dish) ?></span>
             </h4>
             <ul class="list-group mb-3">
-                <?php $total = $tip; ?>
+<!--                --><?php //$total = $tip; ?>
                 <?php  foreach ($cart_dish as $dish){ ?>
                 <li class="list-group-item d-flex justify-content-between lh-condensed">
                     <div>
@@ -67,10 +67,31 @@ $tip = 3;
                     <?php $total += $dish['price'] * $dish['dish_qty']; ?>
                 <?php } ?>
 
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                        <h6 class="my-0">deliver fee</h6>
+                    </div>
+                    <span class="text-muted">3</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                        <h6 class="my-0">Tips</h6>
+                    </div>
+                    <span class="text-muted"><?php echo $tip ?></span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                        <h6 class="my-0">Tax</h6>
+                    </div>
+                    <span class="text-muted"><?php echo $total *0.085 ?></span>
+                </li>
+
 
                 <li class="list-group-item d-flex justify-content-between">
-                    <span>Total (USD)</span>
-                    <strong><?php echo $total *1.085 ?></strong>
+                    <div>
+                        <h6 class="my-0">Total (USD)</h6>
+                    </div>
+                    <strong><?php echo $total *1.085+$tip+3?></strong>
                 </li>
             </ul>
 

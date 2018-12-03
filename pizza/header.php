@@ -35,7 +35,8 @@ $current_user['username'];
                         <?php
                         if (isset($current_user)): ?>
                             <a class="nav-link" href="account.php"><?php echo $current_user['username']?></a>
-                            <a class="nav-link" href="order.php">Cart</a>
+<!--                            <a class="nav-link" href="order.php">Cart</a>-->
+                            <img src="assets/img/cart.png" href="order.php" width="35" height="35" class="d-inline-block align-top">
                             <a class="nav-link" href="wish.php">Wish List</a>
 
                         <?php else:?>

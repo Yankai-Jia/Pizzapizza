@@ -1,9 +1,9 @@
 $(document).ready(function () {
 
-    let pwdRegex = /^.{6,}$/;
-    $("#password").focus(function () {
-        $(this).parent().parent().next().removeClass().addClass("info").text("infoMessage").show();
-    })
+    let pwdRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}$/;
+    // $("#password").focus(function () {
+    //     $(this).parent().parent().next().removeClass().addClass("info").text("").show();
+    // })
 
     $("#password").blur(function(){
 
@@ -15,14 +15,14 @@ $(document).ready(function () {
             // alert("222222");
             // $("#password").next().removeClass().addClass("ok").text("ok").show();
         }
-        else $("#password").next().removeClass().addClass("error").text("Your password must be a minimum of 6 characters ").show();
+        else $("#password").next().removeClass().addClass("error").text("Your password password must contain 6 or more characters that are of at least one number, and one uppercase and lowercase letter.").show();
     });
 
 
     //email
     let emailRegex = /^[A-Za-z0-9]*\@[A-Za-z0-9]*\.[A-Za-z0-9]{3}$/;
     $("#email").focus(function () {
-        $(this).next().removeClass().addClass("info").text("infoMessage").show();
+        // $(this).next().removeClass().addClass("info").text("infoMessage").show();
     });
     $("#email").blur(function(){
 
