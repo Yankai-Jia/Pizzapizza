@@ -83,7 +83,7 @@ if (isset($_GET['dish_id'])){
         </div>
         <div class="form-group">
             <button class="btn btn-primary" >cancel</button>
-            <button class="btn btn-primary" type="submit">add</button>
+            <button class="btn btn-primary" type="submit" >add</button>
         </div>
     </form>
 

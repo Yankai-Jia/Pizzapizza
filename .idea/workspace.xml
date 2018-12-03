@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00f6765f-0398-497b-b50e-24c46a2df680" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pizza/signup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pizza/signup_check.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/account.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/account.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/css/admin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza/t.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/t.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,50 +16,51 @@
     <session id="626664591">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="8" />
           <entry key="js" value="2" />
-          <entry key="php" value="68" />
+          <entry key="php" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="8" />
           <entry key="JavaScript" value="2" />
-          <entry key="PHP" value="68" />
+          <entry key="PHP" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="47" />
           <entry key="js" value="346" />
-          <entry key="php" value="830" />
+          <entry key="php" value="881" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="47" />
           <entry key="JavaScript" value="346" />
-          <entry key="PHP" value="830" />
+          <entry key="PHP" value="881" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pizza/signup.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="780">
-              <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+              <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
               <folding>
                 <element signature="e#6#93#0#PHP" expanded="true" />
               </folding>
@@ -72,11 +68,55 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pizza/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
+            <state relative-caret-position="660">
               <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pizza/add_cart.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="3" selection-start-line="1" selection-end-line="1" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pizza/dish.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="3" selection-start-line="1" selection-end-line="1" selection-end-column="3" />
+              <folding>
+                <element signature="e#6#89#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pizza/dish_add.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2010">
+              <caret line="134" column="93" lean-forward="true" selection-start-line="134" selection-start-column="93" selection-end-line="134" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pizza/dish_newup.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pizza/t.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1305">
+              <caret line="87" column="11" lean-forward="true" selection-start-line="87" selection-start-column="11" selection-end-line="87" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -104,6 +144,7 @@
         <option value="$PROJECT_DIR$/pizza/signup_check.js" />
         <option value="$PROJECT_DIR$/pizza/static/1.js" />
         <option value="$PROJECT_DIR$/pizza/login.php" />
+        <option value="$PROJECT_DIR$/pizza/t.php" />
         <option value="$PROJECT_DIR$/pizza/signup.php" />
       </list>
     </option>
@@ -118,8 +159,9 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="85" />
-    <option name="width" value="1324" />
+    <option name="x" value="-4" />
+    <option name="y" value="103" />
+    <option name="width" value="1280" />
     <option name="height" value="738" />
   </component>
   <component name="ProjectView">
@@ -138,12 +180,6 @@
               <item name="Pizzapizza" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pizzapizza" type="462c0819:PsiDirectoryNode" />
               <item name="pizza" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pizzapizza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pizzapizza" type="462c0819:PsiDirectoryNode" />
-              <item name="pizza" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -188,17 +224,18 @@
       <updated>1543378407207</updated>
       <workItem from="1543378408455" duration="1326000" />
       <workItem from="1543388878129" duration="945000" />
-      <workItem from="1543434275505" duration="19109000" />
+      <workItem from="1543434275505" duration="19728000" />
+      <workItem from="1543800088896" duration="3104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21380000" />
+    <option name="totallyTimeSpent" value="25103000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="85" width="1324" height="738" extended-state="0" />
+    <frame x="-4" y="103" width="1280" height="738" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19344774" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19628432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -255,23 +292,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/dish.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="3" selection-start-line="1" selection-end-line="1" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/dish_add.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pizza/dish_delete.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/dish_newup.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pizza/dish_update.php">
@@ -281,14 +302,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/t.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pizza/upload.php">
       <provider selected="true" editor-type-id="text-editor" />
@@ -345,9 +360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-242">
           <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -362,9 +374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -372,9 +381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#6#21#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -395,16 +401,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/add_cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="3" selection-start-line="1" selection-end-line="1" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/static/1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pizza/static/1.js" />
     <entry file="file://$PROJECT_DIR$/pizza/signup_check.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -415,20 +412,54 @@
     <entry file="file://$PROJECT_DIR$/pizza/config.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/signup.php">
+    <entry file="file://$PROJECT_DIR$/pizza/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="660">
+          <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizza/add_cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="3" selection-start-line="1" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizza/dish.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="3" selection-start-line="1" selection-end-line="1" selection-end-column="3" />
           <folding>
-            <element signature="e#6#93#0#PHP" expanded="true" />
+            <element signature="e#6#89#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pizza/login.php">
+    <entry file="file://$PROJECT_DIR$/pizza/dish_add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+        <state relative-caret-position="2010">
+          <caret line="134" column="93" lean-forward="true" selection-start-line="134" selection-start-column="93" selection-end-line="134" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizza/dish_newup.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizza/t.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" column="11" lean-forward="true" selection-start-line="87" selection-start-column="11" selection-end-line="87" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizza/signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <folding>
+            <element signature="e#6#93#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

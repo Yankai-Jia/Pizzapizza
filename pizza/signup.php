@@ -23,6 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	$firstname=$_POST['firstname'];
 	$lastname = $_POST["lastname"];
 	$mobile = $_POST["mobile"];
+	$signup_time = date("Y-m-d H:i:s");
 
     $connection = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
@@ -39,9 +40,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }else{
 //        echo "aaa";
 
-        $query = "INSERT INTO user (username, pwd, mobile, email, status,role, first_name, last_name, img) VALUES ('$username', '$psw', $mobile, '$email', 1, 1, '$firstname', '$lastname', '$image')";
+        $query = "INSERT INTO user (username, pwd, sign_up_timestamp, mobile, email, status,role, first_name, last_name, img) VALUES ('$username', '$psw', '$signup_time', $mobile, '$email', 1, 0, '$firstname', '$lastname', '$image')";
 
-//        echo $query;
+        echo $query;
 
         if (mysqli_query($connection, $query)) {
             echo "New user added to cart successfully";
