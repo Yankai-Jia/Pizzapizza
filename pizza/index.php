@@ -60,7 +60,6 @@ $list_all_dish=xiu_query(sprintf('SELECT *
 
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
@@ -72,8 +71,11 @@ $list_all_dish=xiu_query(sprintf('SELECT *
     <link rel="stylesheet" href="css/dish.css">
     <title>Personal page</title>
     <style>
-        /*#sides{*/
-            /*margin-top: 50px;*/
+        /*.slides{*/
+            /*height: 830px;*/
+            /*width: 100%;*/
+            /*background-color: chartreuse;*/
+            /*margin: 0 auto;*/
         /*}*/
 
     </style>
@@ -86,6 +88,10 @@ $list_all_dish=xiu_query(sprintf('SELECT *
     <?php include 'header.php'; ?>
 
     <!--container-->
+    <div class="slides">
+
+
+    </div>
     <div class="container">
 
             <div class="row">

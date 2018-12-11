@@ -18,6 +18,8 @@ if (isset($_GET['data'])){
 }
 else $tip = 3;
 
+$total = 0;
+
 $cart_dish = getDishByUserId($id);
 
 $tip = 3;

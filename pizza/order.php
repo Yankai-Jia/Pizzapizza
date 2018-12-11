@@ -79,6 +79,7 @@ $cart_dish = getDishByUserId($id);
         <hr>
     </table>
     <br>
+    <?php if( count($cart_dish) != 0):?>
     <div class="container">
         <div class="row">
             <div class="col col-lg-2">
@@ -94,6 +95,7 @@ $cart_dish = getDishByUserId($id);
             <div class="col col-lg-2">
                 <span>Tax (USD)</span>
             </div>
+
             <div class="col col-lg-2">
                 <?php $tax =  $total_price  * 0.065 ?>
                 <strong><?php echo $tax?></strong>
@@ -110,6 +112,7 @@ $cart_dish = getDishByUserId($id);
             </div>
         </div>
     </div>
+    <?php endif; ?>
 
     <hr>
     <div class="container">

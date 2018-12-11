@@ -3,7 +3,7 @@
  * 登录页面
  */
 
-// 载入配置文件
+
 require_once 'config.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -38,7 +38,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           $_SESSION['is_logged_in'] = true;
           $_SESSION['current_login_user'] = $user;
 
-          header('Location: index.php');
+
+//          header('Location: index.php');
           exit;
         }
       }

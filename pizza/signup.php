@@ -11,7 +11,6 @@ session_start();
 
 require_once 'config.php';
 
-//echo "gfghf";
 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -36,16 +35,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if($result->num_rows != 0){		//old user
         $message = 'This account is existed. Please login';
-        header("location: login.php");
+
     }else{
 //        echo "aaa";
 
-        $query = "INSERT INTO user (username, pwd, sign_up_timestamp, mobile, email, status,role, first_name, last_name, img) VALUES ('$username', '$psw', '$signup_time', $mobile, '$email', 1, 0, '$firstname', '$lastname', '$image')";
+        $query = "INSERT INTO user (username, pwd, sign_up_timestamp, mobile, email, status,role, first_name, last_name, img) 
+  VALUES ('$username', '$psw', '$signup_time', $mobile, '$email', 1, 0, '$firstname', '$lastname', '$image')";
 
         echo $query;
 
         if (mysqli_query($connection, $query)) {
             echo "New user added to cart successfully";
+
+            session_start();
+            $result = mysqli_query($connection, sprintf("select * from user where email = '%s' limit 1", $email));
+            $user = mysqli_fetch_assoc($result);
+            $_SESSION['is_logged_in'] = true;
+            $_SESSION['current_login_user'] = $user;
+
             header("location: index.php");
         }
         else{
@@ -65,7 +72,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <title>Sign Up Form</title>
     <meta name="author" content="Yankai">
-    <link rel="stylesheet" href="PW2.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -102,6 +108,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="form-group col-sm-6" >
             <input type="email" class="form-control" name='email' id="email" placeholder="Email">
             <p></p>
+            <?php if (isset($message)) echo '<p class="alert alert-danger">'. $message .'</p>'?>
         </div>
 
         <div class="form-group col-sm-6" >

@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
     let pwdRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}$/;
+    let phoneRegex = /^[1-9]{1}\d{9}$/;
     // $("#password").focus(function () {
     //     $(this).parent().parent().next().removeClass().addClass("info").text("").show();
     // })
@@ -8,14 +9,25 @@ $(document).ready(function () {
     $("#password").blur(function(){
 
         if( $(this).val()==null || $(this).val()==""){
-            // alert("1111111");
+
             $("#password").next().hide();
         }
         else if(pwdRegex.test($(this).val())){
-            // alert("222222");
-            // $("#password").next().removeClass().addClass("ok").text("ok").show();
         }
-        else $("#password").next().removeClass().addClass("error").text("Your password password must contain 6 or more characters that are of at least one number, and one uppercase and lowercase letter.").show();
+        else $("#password").next().removeClass().addClass("alert alert-danger").text("Your password must contain 6 or more characters that are of at least one number, and one uppercase and lowercase letter.").show();
+    });
+
+
+    $("#mobile").blur(function(){
+
+        if( $(this).val()==null || $(this).val()==""){
+
+            $("#mobile").next().hide();
+        }
+        else if(phoneRegex.test($(this).val())){
+            $("#mobile").next().hide();
+        }
+        else $("#mobile").next().removeClass().addClass("alert alert-danger").text("please enter valid phone number.").show();
     });
 
 
@@ -34,7 +46,7 @@ $(document).ready(function () {
             // $("#email").next().removeClass().addClass("ok").text("ok").show();
         }
         else {
-            $("#email").next().removeClass().addClass("error").text("Please enter a valid email address").show();
+            $("#email").next().removeClass().addClass("alert alert-danger").text("Please enter a valid email address").show();
             // alert("1111111");
         }
 
@@ -67,11 +79,11 @@ $(document).ready(function () {
     });
 
     formInput.on("change", function () {
-        $(this).removeClass("is-invalid").siblings("p").text("");
+        $(this).removeClass("alert alert-danger").siblings("p").text("");
     });
 
     checkbox.on("change", function () {
-        $(this).removeClass("is-invalid").siblings("p").text("");
+        $(this).removeClass("alert alert-danger").siblings("p").text("");
     });
 
     function nullTest(valueForm, error) {
