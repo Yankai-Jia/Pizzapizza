@@ -75,38 +75,7 @@ $list_all_dish=xiu_query(sprintf('SELECT *
         /*#sides{*/
             /*margin-top: 50px;*/
         /*}*/
-        #searchInput{
-            margin-top: 40px;
-        }
-        li:hover{
-           cursor : pointer;
-        }
-        .QA{
-            background-color: black;
-            width: 200px;
-            height: 300px;
-            position: fixed;
-            right: 10px;
-            bottom: 20px;
-        }
-        .toggle{
-            bottom: 320px;
-            right: 10px;
-            height: 10px;
-            width: 200px;
-            position: fixed;
-        }
-        #qaplace{
-            width: 200px;
-            height: 150px;
-            overflow-y:scroll;
-        }
-        #qatext{
-            margin-top: 3px;
-            width: 200px;
-            height: 30px;
 
-        }
     </style>
 </head>
 

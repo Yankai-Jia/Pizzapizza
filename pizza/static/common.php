@@ -284,6 +284,44 @@ function getUserDB($user_id){
     return $user_item;
 
 }
+
+/**
+ * @param $dish_id
+ * @return int of likes for each dish
+ */
+function like($dish_id){
+    $con = getConnection();
+    $q = "SELECT dish_like from dish where id =". $dish_id;
+    $r = mysqli_query($con,$q);
+    while($row = mysqli_fetch_assoc($r)){
+        $user_item[] = $row;}
+    return $row[0];
+}
+
+
+
+function add_like($dish_id, $num){
+    $con = getConnection();
+    $q = "update dish set dish_like =". $num." where id =". $dish_id;
+    $r = mysqli_query($con,$q);
+    if ($r){
+        $affected_row=mysqli_affected_rows($con);
+    }
+    mysqli_close($con);
+    return isset($affected_row)? $affected_row: 0;
+}
+
+//
+//$conn=getConnection();
+//$result=mysqli_query($conn, $sql);
+//if ($result){
+//    $affected_row=mysqli_affected_rows($conn);
+//}
+//mysqli_close($conn);
+//return isset($affected_row)? $affected_row: 0;
+
+
+
 function xiu_query($sql){
     $result= [];
     $con = getConnection();

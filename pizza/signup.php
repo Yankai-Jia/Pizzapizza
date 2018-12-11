@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         die('<h1>Connect Error (' . mysqli_connect_errno() . ') ' . mysqli_connect_error() . '</h1>');
     }
 
-    $result = mysqli_query($connection, sprintf("select * from user where email = '%s' or name = '%s'", $email,$name));
+    $result = mysqli_query($connection, sprintf("select * from user where email = '%s' or username = '%s'", $email,$username));
 
     if($result->num_rows != 0){		//old user
         $message = 'This account is existed. Please login';
