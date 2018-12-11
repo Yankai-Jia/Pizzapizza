@@ -14,7 +14,7 @@ $(document).ready(function () {
         }
         else if(pwdRegex.test($(this).val())){
         }
-        else $("#password").next().removeClass().addClass("alert alert-danger").text("Your password must contain 6 or more characters that are of at least one number, and one uppercase and lowercase letter.").show();
+        else $("#password").next().removeClass().addClass("is-invalid").text("Your password must contain 6 or more characters that are of at least one number, and one uppercase and lowercase letter.").show();
     });
 
 
@@ -22,31 +22,33 @@ $(document).ready(function () {
 
         if( $(this).val()==null || $(this).val()==""){
 
-            $("#mobile").next().hide();
+            $("#mobile").siblings().hide();
         }
         else if(phoneRegex.test($(this).val())){
-            $("#mobile").next().hide();
+            $("#mobile").siblings().hide();
         }
-        else $("#mobile").next().removeClass().addClass("alert alert-danger").text("please enter valid phone number.").show();
+        else $("#mobile").next().removeClass().addClass("is-invalid").text("please enter valid phone number.").show();
     });
 
 
     //email
     let emailRegex = /^[A-Za-z0-9]*\@[A-Za-z0-9]*\.[A-Za-z0-9]{3}$/;
     $("#email").focus(function () {
-        // $(this).next().removeClass().addClass("info").text("infoMessage").show();
+        $("#email").siblings('p').removeClass().hide();
     });
     $("#email").blur(function(){
 
         if( $(this).val()==null || $(this).val()==""){
-            $("#email").next().hide();
+            $("#email").siblings('p').hide();
+            $("#email").siblings('p').removeClass();
+
         }
         else if(emailRegex.test($(this).val())){
             // alert("333333");
-            // $("#email").next().removeClass().addClass("ok").text("ok").show();
+            $("#email").next().removeClass().addClass("ok").text("ok").show();
         }
         else {
-            $("#email").next().removeClass().addClass("alert alert-danger").text("Please enter a valid email address").show();
+            $("#email").next().removeClass().addClass("is-invalid").text("Please enter a valid email address").show();
             // alert("1111111");
         }
 
@@ -79,11 +81,11 @@ $(document).ready(function () {
     });
 
     formInput.on("change", function () {
-        $(this).removeClass("alert alert-danger").siblings("p").text("");
+        $(this).removeClass("is-invalid").siblings("p").text("");
     });
 
     checkbox.on("change", function () {
-        $(this).removeClass("alert alert-danger").siblings("p").text("");
+        $(this).removeClass("is-invalid").siblings("p").text("");
     });
 
     function nullTest(valueForm, error) {
