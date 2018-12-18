@@ -5,6 +5,8 @@
 
 session_start();
 
+
+
 // 删除登录状态
 unset($_SESSION['current_login_user']);
 

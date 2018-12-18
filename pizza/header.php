@@ -34,7 +34,7 @@ $current_user['username'];
                     <nav class="nav nav-pills nav-justified">
                         <?php if(isset($current_user)):?>
                             <p>"&nbsp"</p>
-                            <a class="nav-link" href="account.php"><?php echo $current_user['username']?></a>
+                            <a class="nav-link" href="account.php" id="username"><?php echo $current_user['username']?></a>
                             <p>"&nbsp"</p>
 <!--                            <a class="nav-link" href="order.php">Cart</a>-->
 <!--                            <img src="assets/img/cart.png" href="order.php" width="38" height="38" class="d-inline-block align-top">-->

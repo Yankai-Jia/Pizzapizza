@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           $_SESSION['current_login_user'] = $user;
 
 
-//          header('Location: index.php');
+         header('Location: index.php');
           exit;
         }
       }
@@ -60,7 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
-  <title>Sign in &laquo; Admin</title>
+  <title>Sign in </title>
   <link rel="stylesheet" href="assets/bootstrap.css">
   <link rel="stylesheet" href="assets/admin.css">
 </head>

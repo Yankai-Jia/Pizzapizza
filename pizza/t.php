@@ -105,11 +105,16 @@ if (isset($_GET['dish_id'])){
     <div id="like">
         <p class="like">&#10084;</p>
         <p class="like_text"><?php
-            $num = $detail_dish[0]['dish_like'];
-            if ( ! isset($num) )
-                echo 0;
-            else
-                echo $detail_dish[0]['dish_like']?></p>
+            $redis = new Redis();
+            $redis->connect('127.0.0.1', '6379');
+            $num = $redis->get($id);
+//            echo $num;
+//            var_dump($num);
+            if (!$num)
+            echo 0;
+            echo $num;
+            ?><!--</p>-->
+
     </div>
 
 </div>

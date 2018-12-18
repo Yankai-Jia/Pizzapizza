@@ -178,7 +178,6 @@ $list_all_dish=xiu_query(sprintf('SELECT *
 </div>
 
 
-
 <!--footer-->
 <div>
     <div class="footer">
@@ -191,6 +190,17 @@ $list_all_dish=xiu_query(sprintf('SELECT *
 <script>
 
     $(function () {
+
+        $(".container").on('click', function (e) {
+            let $name = $("#username").text();
+            if($name ===''){
+                console.log("hahah");
+                e.preventDefault();
+                window.open('login.php');
+            }
+
+        });
+
         // li function
         $("li").on('click', function () {
             $(this).addClass("active");
@@ -328,11 +338,6 @@ $list_all_dish=xiu_query(sprintf('SELECT *
                     }
                 });
             }
-
-
-
-
-            // http://127.0.0.1:5000/ingredent
 
         })
 
